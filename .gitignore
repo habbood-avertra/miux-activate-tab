@@ -11,7 +11,8 @@ test/.project
 *.lock
 .idea/
 
-dist/
+dist/*
+!dist/*.mpk
 
 node_modules/
 .editorconfig
