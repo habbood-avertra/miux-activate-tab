@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<widget id="MiuxActivateTab.widget.MiuxActivateTab" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
-    <name>MiuxActivateTab</name>
-    <description>The description of this widget.</description>
+<widget id="MiuxActivateTab.widget.MiuxActivateTab" needsEntityContext="false"
+        xmlns="http://www.mendix.com/widget/1.0/">
+    <name>miux-activate-tab</name>
+    <description>A Mendix widget to auto activate target tab element using a class name.</description>
 
     <icon/>
 
     <properties>
-        <property key="dummyKey" type="string" required="false" defaultValue="">
-            <caption>Dummy key</caption>
-            <category>Appearance</category>
-            <description>This key was added to make the widget work in the Modeler (needs atleast 1 key). Please
-                change/remove this one
-            </description>
+        <property key="targetClassName" type="string" required="true" defaultValue="">
+            <caption>Target class name</caption>
+            <category>General</category>
+            <description>The class name of the tabs widget.</description>
         </property>
     </properties>
 </widget>

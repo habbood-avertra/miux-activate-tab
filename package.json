@@ -1,5 +1,5 @@
 {
-    "name": "MiuxActivateTab",
+    "name": "miux-activate-tab",
     "version": "1.0.0",
     "description": "Auto activate target element class.",
     "license": "Apache 2",
