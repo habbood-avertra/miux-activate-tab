@@ -1,0 +1,13 @@
+{
+    "generator-mendix": {
+        "promptValues": {
+            "copyright": "Avertra",
+            "license": "Apache 2",
+            "author": "Hayder M. Abood",
+            "boilerplate": "empty",
+            "widgetoptions": [
+                "jquery"
+            ]
+        }
+    }
+}
